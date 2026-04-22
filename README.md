@@ -54,15 +54,11 @@ Total Loss = Classification Loss + λ × Sparsity Loss
 
 
 
-| Lambda | Accuracy | Sparsity |
+(1e-05, 41.5, 0.10976257803120125)
 
-|--------|---------|---------|
+(1e-04, 40.24, 0.16785939937597504)
 
-| 1e-5   | 39.02%  | 0.11%   |
-
-| 1e-4   | 40.10%  | 0.17%   |
-
-| 1e-3   | 38.96%  | 0.17%   |
+(1e-03, 37.72, 0.16551287051482058)
 
 
 
@@ -89,6 +85,4 @@ Total Loss = Classification Loss + λ × Sparsity Loss
 \#Conclusion
 
 The model successfully learns to prune unnecessary weights during training, creating a sparse and efficient network.
-
-
 

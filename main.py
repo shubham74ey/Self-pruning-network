@@ -91,7 +91,7 @@ def sparsity(model, threshold=1e-2):
 
     return 100 * pruned / total
 
-lambdas = [1e-5, 1e-4, 1e-3,]
+lambdas = [1e-5, 1e-4, 1e-3]
 
 results = []
 
@@ -115,3 +115,4 @@ plt.show()
 print("\nFinal Results:")
 for r in results:
     print(r)
+
